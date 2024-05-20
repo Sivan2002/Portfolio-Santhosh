@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio-Santhosh</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/a8f05e45d9.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <div id="header">
+      <div class="contain">
+        <nav>
+          <img src="images/Santhosh_20240514_150444_0000.png" class="logo" />
+          <ul id="sidemenu">
+            <li><a href="#header">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <i class="fa-regular fa-circle-xmark" onclick="closemenu()"></i>
+          </ul>
+          <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+      </div>
+      <div class="container">
+        <div class="row">
+          <div class="col-1">
+            <p>Hi, i am</p>
+            <br />
+            <h1>Santhosh Sivan R</h1>
+            <br />
+            <p>Frontend Developer</p>
+          </div>
+          <div class="col-1">
+            <img src="images/santhosh.png" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- about -->
+    <div id="about">
+      <div class="container">
+        <div class="row">
+          <div class="about-col-1">
+            <img
+              src="images/WhatsApp Image 2024-03-10 at 17.10.58_cc4f5bf0.jpg"
+            />
+          </div>
+          <div class="about-col-2">
+            <h1 class="subtitle">About Me</h1>
+            <p>
+              I am Santhosh Web Developer who has a specialization in creating user 
+              interfaces for applications and websites.and I completed B.E Computer Science In Loyola
+              Institute Of Technology - Chennai. My goal is to become a Good Web
+              Developer in a Well Known Software Company with Good salary and I
+              love to Create Graphic Design And Edit Videos as a freelancer in
+              my Free Time.
+            </p>
+            <div class="tab-titles">
+              <p class="tab-links active-link" onclick="opentab('skills')">
+                Skills
+              </p>
+              <p class="tab-links" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tab-contents active-tab" id="skills">
+              <ul>
+                <li><span>UI/UX</span><br />Design Web and App Interfaces</li>
+                <li><span>Web Development</span><br />Web App Development</li>
+                <li>
+                  <span>Graphic Design</span><br />Proficient in Photoshop
+                </li>
+              </ul>
+            </div>
+            <div class="tab-contents" id="education">
+              <ul>
+                <li>
+                  <span>SSLC (2016-2017)</span><br />94% from HBHOMS
+                  Ramanathapuram.
+                </li>
+                <li>
+                  <span>HSC (2018-2019)</span><br />80.85% from SAMHSC
+                  Ramanthapuram.
+                </li>
+                <li>
+                  <span>B.E Computer Science (2019-2023)</span><br />8.37 CGPA
+                  from Loyola Institute of Technology Chennai.
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- services -->
+    <div id="services">
+      <div class="container">
+        <h1 class="subtitle">My Services</h1>
+        <div class="services-list">
+          <div>
+            <i class="fa-solid fa-code"></i>
+            <h2>Web Design</h2>
+            <p>
+              As a Web developer I can create and design websites based on
+              client's request. I also have experience in creating websites for
+              my college projects and also worked in company websites during my
+              internship days at Bangalore.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+          <div>
+            <i class="fa-solid fa-crop"></i>
+            <h2>Graphic Design</h2>
+            <p>
+              I have So much Interest in designing graphic design and i also
+              have lot of experience for creating posters during my college days
+              I also doing lot of advertisement, Branding and Marketing designs
+              later as a freelancer for S.M Designs, Ramanathapuram.
+            </p>
+            <a href="#">Learn more</a>
+          </div>
+        </div>
+        <div></div>
+      </div>
+    </div>
+    <!-- portfolio -->
+
+    <div id="portfolio">
+      <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="work-list">
+          <div class="work">
+            <img src="images/work4.jpg" alt="" />
+            <div class="layer">
+              <h3>OTP Generator</h3>
+              <p>
+                This website help to generate Random 6 digit OTP Everytime When we click it.
+              </p>
+              <a href="https://sivan2002.github.io/otpgenerator/"><i class="fa-solid fa-up-right-from-square"></i></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-2.jpg" alt="" />
+            <div class="layer">
+              <h3>E-commerce website</h3>
+              <p>
+                This website can help farmers to sell their products directly to
+                the customers and act as an communication Bridge between them.
+              </p>
+              <a href="https://sivan2002.github.io/farmconnect/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+          <div class="work">
+            <img src="images/work-3.avif" alt="" />
+            <div class="layer">
+              <h3>Company website</h3>
+              <p>
+                This website can help employers and others to know more about
+                the company and their achievements,work and other services which
+                they are provided.
+              </p>
+              <a href="https://sivan2002.github.io/niguswebsite/"
+                ><i class="fa-solid fa-up-right-from-square"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- contact -->
+    <div id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="subtitle">Contact Me</h1>
+            <p>
+              <i class="fa-solid fa-envelope"></i> santhosh4852002@gmail.com
+            </p>
+            <p><i class="fa-solid fa-mobile"></i> 9344892596</p>
+            <div class="socialicon">
+              <a
+                href="https://www.facebook.com/santhosh.sivan.10441?mibextid=ZbWKwL"
+                ><i class="fa-brands fa-square-facebook"></i
+              ></a>
+              <a
+                href="https://www.instagram.com/santhosh_sivan_r?igsh=MWFrdHF0cHFoOW1oeQ=="
+                ><i class="fa-brands fa-square-instagram"></i
+              ></a>
+              <a href="https://github.com/Sivan2002/sivan-"
+                ><i class="fa-brands fa-square-github"></i
+              ></a>
+              <a
+                href="https://www.linkedin.com/in/santhosh-sivan-r-26b447301?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+            </div>
+            <a
+              href="images/Santhosh_B.E CSE_2023_Front End.pdf"
+              download
+              class="btn btn2"
+              >Download CV</a
+            >
+          </div>
+          <div class="contact-right">
+            <form name="submit-to-google-sheet">
+              <input
+                type="text"
+                name="Name"
+                placeholder="Santhosh Sivan"
+                required
+              />
+              <input
+                type="email"
+                name="email"
+                placeholder="santhosh4852002@gmail.com"
+                required
+              />
+              <textarea
+                name="Message"
+                rows="6"
+                placeholder="Your Message"
+              ></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            <span id="msg"></span>
+          </div>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>
+          Copyright <i class="fa-regular fa-copyright"></i> Santhosh Sivan B.E
+          Computer Science.
+        </p>
+      </div>
+    </div>
+
+    <script>
+      var tablinks = document.getElementsByClassName("tab-links");
+      var tabcontents = document.getElementsByClassName("tab-contents");
+
+      function opentab(tabname) {
+        for (tablink of tablinks) {
+          tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+          tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+      }
+    </script>
+
+    <script>
+      var sidemenu = document.getElementById("sidemenu");
+
+      function openmenu() {
+        sidemenu.style.right = "0";
+      }
+
+      function closemenu() {
+        sidemenu.style.right = "-200px";
+      }
+    </script>
+    <script>
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbzqte2b0aD9drPG6e6CIii4GeFXve3CS7mvIjmOUH3i7zqixUmGh5HFBzzMBcb8TjVcFA/exec'
+      const form = document.forms['submit-to-google-sheet']
+      const msg = document.getElementById("msg");
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+          .then(response => {
+            msg.innerHTML ="Messge Sent Sucessfully"
+            setTimeout(function() {
+              msg.innerHTML =""
+            },5000)
+            form.reset()
+          })
+          .catch(error => console.error('Error!', error.message))
+      })
+    </script>
+  </body>
+</html>
